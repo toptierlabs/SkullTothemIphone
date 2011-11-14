@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3612CE1471512E00C777B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3612CD1471512E00C777B4 /* UIKit.framework */; };
+		AB3612D01471512E00C777B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3612CF1471512E00C777B4 /* Foundation.framework */; };
+		AB3612D21471512E00C777B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3612D11471512E00C777B4 /* CoreGraphics.framework */; };
+		AB3612D81471512E00C777B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB3612D61471512E00C777B4 /* InfoPlist.strings */; };
+		AB3612DB1471512E00C777B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3612DA1471512E00C777B4 /* main.m */; };
+		AB3612DE1471512E00C777B4 /* skull_totemAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3612DD1471512E00C777B4 /* skull_totemAppDelegate.m */; };
+		AB3612E11471512E00C777B4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB3612DF1471512E00C777B4 /* MainWindow.xib */; };
+		AB3612E41471512E00C777B4 /* skull_totemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3612E31471512E00C777B4 /* skull_totemViewController.m */; };
+		AB3612E71471512E00C777B4 /* skull_totemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB3612E51471512E00C777B4 /* skull_totemViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB3612C91471512E00C777B4 /* skull_totem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skull_totem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3612CD1471512E00C777B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB3612CF1471512E00C777B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB3612D11471512E00C777B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB3612D51471512E00C777B4 /* skull_totem-Info.plist */ = {isa = PBXFileReference; path = "skull_totem-Info.plist"; sourceTree = "<group>"; };
+		AB3612D71471512E00C777B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB3612D91471512E00C777B4 /* skull_totem-Prefix.pch */ = {isa = PBXFileReference; path = "skull_totem-Prefix.pch"; sourceTree = "<group>"; };
+		AB3612DA1471512E00C777B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB3612DC1471512E00C777B4 /* skull_totemAppDelegate.h */ = {isa = PBXFileReference; path = skull_totemAppDelegate.h; sourceTree = "<group>"; };
+		AB3612DD1471512E00C777B4 /* skull_totemAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skull_totemAppDelegate.m; sourceTree = "<group>"; };
+		AB3612E01471512E00C777B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AB3612E21471512E00C777B4 /* skull_totemViewController.h */ = {isa = PBXFileReference; path = skull_totemViewController.h; sourceTree = "<group>"; };
+		AB3612E31471512E00C777B4 /* skull_totemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skull_totemViewController.m; sourceTree = "<group>"; };
+		AB3612E61471512E00C777B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/skull_totemViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3612C61471512E00C777B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3612CE1471512E00C777B4 /* UIKit.framework in Frameworks */,
+				AB3612D01471512E00C777B4 /* Foundation.framework in Frameworks */,
+				AB3612D21471512E00C777B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB3612BE1471512E00C777B4 = {
+			isa = PBXGroup;
+			children = (
+				AB3612D31471512E00C777B4 /* skull_totem */,
+				AB3612CC1471512E00C777B4 /* Frameworks */,
+				AB3612CA1471512E00C777B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB3612CA1471512E00C777B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3612C91471512E00C777B4 /* skull_totem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB3612CC1471512E00C777B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB3612CD1471512E00C777B4 /* UIKit.framework */,
+				AB3612CF1471512E00C777B4 /* Foundation.framework */,
+				AB3612D11471512E00C777B4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB3612D31471512E00C777B4 /* skull_totem */ = {
+			isa = PBXGroup;
+			children = (
+				AB3612DC1471512E00C777B4 /* skull_totemAppDelegate.h */,
+				AB3612DD1471512E00C777B4 /* skull_totemAppDelegate.m */,
+				AB3612DF1471512E00C777B4 /* MainWindow.xib */,
+				AB3612E21471512E00C777B4 /* skull_totemViewController.h */,
+				AB3612E31471512E00C777B4 /* skull_totemViewController.m */,
+				AB3612E51471512E00C777B4 /* skull_totemViewController.xib */,
+				AB3612D41471512E00C777B4 /* Supporting Files */,
+			);
+			path = skull_totem;
+			sourceTree = "<group>";
+		};
+		AB3612D41471512E00C777B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB3612D51471512E00C777B4 /* skull_totem-Info.plist */,
+				AB3612D61471512E00C777B4 /* InfoPlist.strings */,
+				AB3612D91471512E00C777B4 /* skull_totem-Prefix.pch */,
+				AB3612DA1471512E00C777B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB3612C81471512E00C777B4 /* skull_totem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3612EA1471512E00C777B4 /* Build configuration list for PBXNativeTarget "skull_totem" */;
+			buildPhases = (
+				AB3612C51471512E00C777B4 /* Sources */,
+				AB3612C61471512E00C777B4 /* Frameworks */,
+				AB3612C71471512E00C777B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skull_totem;
+			productName = skull_totem;
+			productReference = AB3612C91471512E00C777B4 /* skull_totem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3612C01471512E00C777B4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AB3612C31471512E00C777B4 /* Build configuration list for PBXProject "skull_totem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB3612BE1471512E00C777B4;
+			productRefGroup = AB3612CA1471512E00C777B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB3612C81471512E00C777B4 /* skull_totem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB3612C71471512E00C777B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3612D81471512E00C777B4 /* InfoPlist.strings in Resources */,
+				AB3612E11471512E00C777B4 /* MainWindow.xib in Resources */,
+				AB3612E71471512E00C777B4 /* skull_totemViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3612C51471512E00C777B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3612DB1471512E00C777B4 /* main.m in Sources */,
+				AB3612DE1471512E00C777B4 /* skull_totemAppDelegate.m in Sources */,
+				AB3612E41471512E00C777B4 /* skull_totemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB3612D61471512E00C777B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3612D71471512E00C777B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB3612DF1471512E00C777B4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3612E01471512E00C777B4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AB3612E51471512E00C777B4 /* skull_totemViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3612E61471512E00C777B4 /* en */,
+			);
+			name = skull_totemViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB3612E81471512E00C777B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB3612E91471512E00C777B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AB3612EB1471512E00C777B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "skull_totem/skull_totem-Prefix.pch";
+				INFOPLIST_FILE = "skull_totem/skull_totem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB3612EC1471512E00C777B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "skull_totem/skull_totem-Prefix.pch";
+				INFOPLIST_FILE = "skull_totem/skull_totem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3612C31471512E00C777B4 /* Build configuration list for PBXProject "skull_totem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3612E81471512E00C777B4 /* Debug */,
+				AB3612E91471512E00C777B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3612EA1471512E00C777B4 /* Build configuration list for PBXNativeTarget "skull_totem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3612EB1471512E00C777B4 /* Debug */,
+				AB3612EC1471512E00C777B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3612C01471512E00C777B4 /* Project object */;
+}
