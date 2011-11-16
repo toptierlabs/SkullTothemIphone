@@ -31,10 +31,11 @@
 		AB361325147156FF00C777B4 /* image11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB36131A147156FF00C777B4 /* image11.jpeg */; };
 		AB36132914717F2600C777B4 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB36132714717F2600C777B4 /* OptionsViewController.m */; };
 		AB36132A14717F2600C777B4 /* OptionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB36132814717F2600C777B4 /* OptionsView.xib */; };
+		AB7C93911473DFBE008F46E5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7C93901473DFBE008F46E5 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB3612C91471512E00C777B4 /* skull_totem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skull_totem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3612C91471512E00C777B4 /* Skull Totem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skull Totem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3612CD1471512E00C777B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB3612CF1471512E00C777B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB3612D11471512E00C777B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,6 +65,7 @@
 		AB36132614717F2600C777B4 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
 		AB36132714717F2600C777B4 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
 		AB36132814717F2600C777B4 /* OptionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsView.xib; sourceTree = "<group>"; };
+		AB7C93901473DFBE008F46E5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +94,7 @@
 		AB3612CA1471512E00C777B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB3612C91471512E00C777B4 /* skull_totem.app */,
+				AB3612C91471512E00C777B4 /* Skull Totem.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +138,7 @@
 		AB3612ED1471513C00C777B4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AB7C93901473DFBE008F46E5 /* icon.png */,
 				AB3612E51471512E00C777B4 /* skull_totemViewController.xib */,
 				AB3612DF1471512E00C777B4 /* MainWindow.xib */,
 				AB361310147156FF00C777B4 /* image1.jpeg */,
@@ -159,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB3612C81471512E00C777B4 /* skull_totem */ = {
+		AB3612C81471512E00C777B4 /* Skull Totem */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB3612EA1471512E00C777B4 /* Build configuration list for PBXNativeTarget "skull_totem" */;
+			buildConfigurationList = AB3612EA1471512E00C777B4 /* Build configuration list for PBXNativeTarget "Skull Totem" */;
 			buildPhases = (
 				AB3612C51471512E00C777B4 /* Sources */,
 				AB3612C61471512E00C777B4 /* Frameworks */,
@@ -171,9 +174,9 @@
 			);
 			dependencies = (
 			);
-			name = skull_totem;
+			name = "Skull Totem";
 			productName = skull_totem;
-			productReference = AB3612C91471512E00C777B4 /* skull_totem.app */;
+			productReference = AB3612C91471512E00C777B4 /* Skull Totem.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -193,7 +196,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB3612C81471512E00C777B4 /* skull_totem */,
+				AB3612C81471512E00C777B4 /* Skull Totem */,
 			);
 		};
 /* End PBXProject section */
@@ -220,6 +223,7 @@
 				AB361324147156FF00C777B4 /* image10.jpeg in Resources */,
 				AB361325147156FF00C777B4 /* image11.jpeg in Resources */,
 				AB36132A14717F2600C777B4 /* OptionsView.xib in Resources */,
+				AB7C93911473DFBE008F46E5 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +283,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -293,7 +297,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -308,6 +312,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "skull_totem/skull_totem-Prefix.pch";
 				INFOPLIST_FILE = "skull_totem/skull_totem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -321,6 +326,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "skull_totem/skull_totem-Prefix.pch";
 				INFOPLIST_FILE = "skull_totem/skull_totem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -339,13 +345,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB3612EA1471512E00C777B4 /* Build configuration list for PBXNativeTarget "skull_totem" */ = {
+		AB3612EA1471512E00C777B4 /* Build configuration list for PBXNativeTarget "Skull Totem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB3612EB1471512E00C777B4 /* Debug */,
 				AB3612EC1471512E00C777B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
