@@ -10,20 +10,48 @@
 
 #import "skull_totemViewController.h"
 
+#import "OptionsViewController.h"
+
+
 @implementation skull_totemAppDelegate
 
 
 @synthesize window=_window;
-
 @synthesize viewController=_viewController;
+@synthesize optionsViewController=_optionsViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-     
-    self.window.rootViewController = self.viewController;
+    [self.window addSubview:_viewController.view];
+        
+
     [self.window makeKeyAndVisible];
+
     return YES;
+}
+
+
+-(void) openOptionsView
+{
+    [self.viewController.view removeFromSuperview];
+    if(self.optionsViewController == nil)
+    {
+        OptionsViewController *optViewController = [[OptionsViewController alloc] initWithNibName:@"OptionsView" bundle:nil];
+        self.optionsViewController = optViewController;
+        [optViewController release];
+    }
+
+    [self.window addSubview:_optionsViewController.view];
+
+}
+
+-(void) openSkullView
+{
+    [self.optionsViewController.view removeFromSuperview];
+    [_viewController restart];
+    [self.window addSubview:_viewController.view];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -69,6 +97,7 @@
 {
     [_window release];
     [_viewController release];
+    [_optionsViewController release];
     [super dealloc];
 }
 

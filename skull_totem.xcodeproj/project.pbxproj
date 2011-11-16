@@ -16,6 +16,21 @@
 		AB3612E11471512E00C777B4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB3612DF1471512E00C777B4 /* MainWindow.xib */; };
 		AB3612E41471512E00C777B4 /* skull_totemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3612E31471512E00C777B4 /* skull_totemViewController.m */; };
 		AB3612E71471512E00C777B4 /* skull_totemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB3612E51471512E00C777B4 /* skull_totemViewController.xib */; };
+		AB3612EF1471519E00C777B4 /* texts.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB3612EE1471519E00C777B4 /* texts.plist */; };
+		AB3612F1147151A700C777B4 /* images.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB3612F0147151A700C777B4 /* images.plist */; };
+		AB36131B147156FF00C777B4 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB361310147156FF00C777B4 /* image1.jpeg */; };
+		AB36131C147156FF00C777B4 /* image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB361311147156FF00C777B4 /* image2.jpeg */; };
+		AB36131D147156FF00C777B4 /* image3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB361312147156FF00C777B4 /* image3.jpeg */; };
+		AB36131E147156FF00C777B4 /* image4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB361313147156FF00C777B4 /* image4.jpeg */; };
+		AB36131F147156FF00C777B4 /* image5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB361314147156FF00C777B4 /* image5.jpeg */; };
+		AB361320147156FF00C777B4 /* image6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB361315147156FF00C777B4 /* image6.jpeg */; };
+		AB361321147156FF00C777B4 /* image7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB361316147156FF00C777B4 /* image7.jpeg */; };
+		AB361322147156FF00C777B4 /* image8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB361317147156FF00C777B4 /* image8.jpeg */; };
+		AB361323147156FF00C777B4 /* image9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB361318147156FF00C777B4 /* image9.jpeg */; };
+		AB361324147156FF00C777B4 /* image10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB361319147156FF00C777B4 /* image10.jpeg */; };
+		AB361325147156FF00C777B4 /* image11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB36131A147156FF00C777B4 /* image11.jpeg */; };
+		AB36132914717F2600C777B4 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB36132714717F2600C777B4 /* OptionsViewController.m */; };
+		AB36132A14717F2600C777B4 /* OptionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB36132814717F2600C777B4 /* OptionsView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +38,32 @@
 		AB3612CD1471512E00C777B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB3612CF1471512E00C777B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB3612D11471512E00C777B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AB3612D51471512E00C777B4 /* skull_totem-Info.plist */ = {isa = PBXFileReference; path = "skull_totem-Info.plist"; sourceTree = "<group>"; };
+		AB3612D51471512E00C777B4 /* skull_totem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "skull_totem-Info.plist"; sourceTree = "<group>"; };
 		AB3612D71471512E00C777B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AB3612D91471512E00C777B4 /* skull_totem-Prefix.pch */ = {isa = PBXFileReference; path = "skull_totem-Prefix.pch"; sourceTree = "<group>"; };
+		AB3612D91471512E00C777B4 /* skull_totem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "skull_totem-Prefix.pch"; sourceTree = "<group>"; };
 		AB3612DA1471512E00C777B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB3612DC1471512E00C777B4 /* skull_totemAppDelegate.h */ = {isa = PBXFileReference; path = skull_totemAppDelegate.h; sourceTree = "<group>"; };
+		AB3612DC1471512E00C777B4 /* skull_totemAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skull_totemAppDelegate.h; sourceTree = "<group>"; };
 		AB3612DD1471512E00C777B4 /* skull_totemAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skull_totemAppDelegate.m; sourceTree = "<group>"; };
 		AB3612E01471512E00C777B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		AB3612E21471512E00C777B4 /* skull_totemViewController.h */ = {isa = PBXFileReference; path = skull_totemViewController.h; sourceTree = "<group>"; };
+		AB3612E21471512E00C777B4 /* skull_totemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skull_totemViewController.h; sourceTree = "<group>"; };
 		AB3612E31471512E00C777B4 /* skull_totemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skull_totemViewController.m; sourceTree = "<group>"; };
 		AB3612E61471512E00C777B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/skull_totemViewController.xib; sourceTree = "<group>"; };
+		AB3612EE1471519E00C777B4 /* texts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = texts.plist; sourceTree = "<group>"; };
+		AB3612F0147151A700C777B4 /* images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = images.plist; sourceTree = "<group>"; };
+		AB361310147156FF00C777B4 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
+		AB361311147156FF00C777B4 /* image2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpeg; sourceTree = "<group>"; };
+		AB361312147156FF00C777B4 /* image3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpeg; sourceTree = "<group>"; };
+		AB361313147156FF00C777B4 /* image4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpeg; sourceTree = "<group>"; };
+		AB361314147156FF00C777B4 /* image5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpeg; sourceTree = "<group>"; };
+		AB361315147156FF00C777B4 /* image6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpeg; sourceTree = "<group>"; };
+		AB361316147156FF00C777B4 /* image7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpeg; sourceTree = "<group>"; };
+		AB361317147156FF00C777B4 /* image8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpeg; sourceTree = "<group>"; };
+		AB361318147156FF00C777B4 /* image9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpeg; sourceTree = "<group>"; };
+		AB361319147156FF00C777B4 /* image10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpeg; sourceTree = "<group>"; };
+		AB36131A147156FF00C777B4 /* image11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image11.jpeg; sourceTree = "<group>"; };
+		AB36132614717F2600C777B4 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		AB36132714717F2600C777B4 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		AB36132814717F2600C777B4 /* OptionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +110,13 @@
 		AB3612D31471512E00C777B4 /* skull_totem */ = {
 			isa = PBXGroup;
 			children = (
+				AB3612ED1471513C00C777B4 /* Resources */,
 				AB3612DC1471512E00C777B4 /* skull_totemAppDelegate.h */,
 				AB3612DD1471512E00C777B4 /* skull_totemAppDelegate.m */,
-				AB3612DF1471512E00C777B4 /* MainWindow.xib */,
 				AB3612E21471512E00C777B4 /* skull_totemViewController.h */,
 				AB3612E31471512E00C777B4 /* skull_totemViewController.m */,
-				AB3612E51471512E00C777B4 /* skull_totemViewController.xib */,
+				AB36132614717F2600C777B4 /* OptionsViewController.h */,
+				AB36132714717F2600C777B4 /* OptionsViewController.m */,
 				AB3612D41471512E00C777B4 /* Supporting Files */,
 			);
 			path = skull_totem;
@@ -99,6 +131,29 @@
 				AB3612DA1471512E00C777B4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB3612ED1471513C00C777B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB3612E51471512E00C777B4 /* skull_totemViewController.xib */,
+				AB3612DF1471512E00C777B4 /* MainWindow.xib */,
+				AB361310147156FF00C777B4 /* image1.jpeg */,
+				AB361311147156FF00C777B4 /* image2.jpeg */,
+				AB361312147156FF00C777B4 /* image3.jpeg */,
+				AB361313147156FF00C777B4 /* image4.jpeg */,
+				AB361314147156FF00C777B4 /* image5.jpeg */,
+				AB361315147156FF00C777B4 /* image6.jpeg */,
+				AB361316147156FF00C777B4 /* image7.jpeg */,
+				AB361317147156FF00C777B4 /* image8.jpeg */,
+				AB361318147156FF00C777B4 /* image9.jpeg */,
+				AB361319147156FF00C777B4 /* image10.jpeg */,
+				AB36131A147156FF00C777B4 /* image11.jpeg */,
+				AB3612EE1471519E00C777B4 /* texts.plist */,
+				AB3612F0147151A700C777B4 /* images.plist */,
+				AB36132814717F2600C777B4 /* OptionsView.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +206,20 @@
 				AB3612D81471512E00C777B4 /* InfoPlist.strings in Resources */,
 				AB3612E11471512E00C777B4 /* MainWindow.xib in Resources */,
 				AB3612E71471512E00C777B4 /* skull_totemViewController.xib in Resources */,
+				AB3612EF1471519E00C777B4 /* texts.plist in Resources */,
+				AB3612F1147151A700C777B4 /* images.plist in Resources */,
+				AB36131B147156FF00C777B4 /* image1.jpeg in Resources */,
+				AB36131C147156FF00C777B4 /* image2.jpeg in Resources */,
+				AB36131D147156FF00C777B4 /* image3.jpeg in Resources */,
+				AB36131E147156FF00C777B4 /* image4.jpeg in Resources */,
+				AB36131F147156FF00C777B4 /* image5.jpeg in Resources */,
+				AB361320147156FF00C777B4 /* image6.jpeg in Resources */,
+				AB361321147156FF00C777B4 /* image7.jpeg in Resources */,
+				AB361322147156FF00C777B4 /* image8.jpeg in Resources */,
+				AB361323147156FF00C777B4 /* image9.jpeg in Resources */,
+				AB361324147156FF00C777B4 /* image10.jpeg in Resources */,
+				AB361325147156FF00C777B4 /* image11.jpeg in Resources */,
+				AB36132A14717F2600C777B4 /* OptionsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +233,7 @@
 				AB3612DB1471512E00C777B4 /* main.m in Sources */,
 				AB3612DE1471512E00C777B4 /* skull_totemAppDelegate.m in Sources */,
 				AB3612E41471512E00C777B4 /* skull_totemViewController.m in Sources */,
+				AB36132914717F2600C777B4 /* OptionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "OptionsViewController.h"
-
+#import "skull_totemAppDelegate.h"
 
 @implementation OptionsViewController
 
@@ -32,6 +32,21 @@
     
     // Release any cached data, images, etc that aren't in use.
 }
+
+//Repeat button event 
+- (IBAction) restart:(id)sender {
+    //Calling AppDelegate to switch views
+    skull_totemAppDelegate *appDelegate= (skull_totemAppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appDelegate  openSkullView];
+
+}
+
+//Exit button event 
+- (IBAction) exit:(id)sender {
+    exit(0); //Exit Application
+    
+}
+
 
 #pragma mark - View lifecycle
 

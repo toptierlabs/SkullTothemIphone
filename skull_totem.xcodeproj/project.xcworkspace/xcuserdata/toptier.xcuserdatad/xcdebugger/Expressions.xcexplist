@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesStackState
+   version = "1.0">
+   <StackStates>
+      <StackState
+         stackFrameDescription = "-[skull_totemViewController updateImage]:skull_totemViewController.m">
+         <expressions>
+            <expression
+               value = "[images objectForKey: key]">
+            </expression>
+            <expression
+               value = "(NSTring)[images objectForKey: key]">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[skull_totemViewController resetRandomArray]:skull_totemViewController.m">
+         <expressions>
+            <expression
+               value = "[randomTextkeys objectAtIndex: 0]">
+            </expression>
+         </expressions>
+      </StackState>
+   </StackStates>
+</VariablesStackState>

@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>Text1</key>
+	<string>I am open</string>
+	<key>Text2</key>
+	<string>I am ready</string>
+	<key>Text3</key>
+	<string>I receive</string>
+	<key>Text4</key>
+	<string>I believe</string>
+	<key>Text5</key>
+	<string>I know</string>
+	<key>Text6</key>
+	<string>I trust in myself</string>
+	<key>Text7</key>
+	<string>I have</string>
+	<key>Text8</key>
+	<string>I create</string>
+	<key>Text9</key>
+	<string>I love</string>
+	<key>Text10</key>
+	<string>I am beautiful</string>
+	<key>Text11</key>
+	<string>I am strong</string>
+</dict>
 </plist>
